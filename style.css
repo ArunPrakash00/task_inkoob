@@ -1,0 +1,156 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	list-style:none;
+	box-sizing:border-box;
+  color:#648880;
+  font-family:calibri;
+  font-weight:lighter;
+}
+
+.head{
+  width:100%;
+  height:160px;
+  display:flex;
+  background-color:#293f51;
+  padding:0px 250px;
+  justify-content:space-between;
+}
+
+.lnav{
+  border-top-style:solid;
+  border-color:#648880;
+  padding-top:30px;
+  color:#fff;
+  text-transform:uppercase;
+  font-size:45px;
+  line-height:80%;
+}
+
+.lnav:hover{
+  border-color:#fff;
+  transition:.5s;
+  cursor:help;
+}
+
+.rnav{
+  padding-top:50px;
+  line-height:220%;
+}
+
+.rbnav li{
+  color:#fff;
+  float:left;
+  margin-left:10px;
+  padding:2px 6px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+.rbnav li:hover{
+  background-color:#fff;
+  color:#000;
+  
+  border-radius:5px;
+  transition:.5s;
+  cursor:pointer;
+}
+
+.hnext{
+  text-align:center;
+  background-color:#293f51;
+  padding:15px; 
+  line-height:220%;
+}
+.hnext h2{
+  font-size:30px;
+}
+
+.hnext p{
+  font-size:20px;
+  color:#fff;
+}
+
+#hbutton{
+  font-size:18px;
+  border:1px solid;
+  border-radius:5px;
+  color:white;
+  border-color:white;
+  margin-top:20px;
+  margin-bottom:40px;
+  padding:12px 30px;
+  display:inline-block;
+}
+
+#hbutton:hover{
+  background-color:#fff;
+  color:#000;
+  transition:.5s linear;
+}
+
+.g-style{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  margin:50px 0px;
+  padding:0px 250px;
+}
+
+.card{
+  width:250px;
+  color:#648880;
+  cursor:pointer;
+}
+
+.card:hover{
+  box-shadow:0 0 15px 2px #d0d0d0 , 0 5px 15px #d0d0d0;
+  transition:.2s linear;
+  transform:translate3d(2px,2px,2px);
+}
+
+.c-image{
+    width:250px;
+    height:200px;
+    margin:20px 0px; 
+}
+
+.c-image img{
+  width:100%;
+  height:100%;
+  border-radius:5px;
+  object-fit: cover;
+}
+
+.c-detail{
+  margin:20px 0px;
+  color:#333333;
+}
+
+.footer{
+  background-color:#293f51;
+  display:flex;
+  padding:30px;
+  justify-content:space-between;
+  padding:30px 250px;
+}
+
+.copyright:before{
+  content:' \00A9 ';  
+}
+
+.f-nav li{
+  margin-left:20px;
+  color:#fff;
+  padding:5px;
+}
+
+.f-nav li:hover{
+  background-color:#fff;
+  color:#000;
+  border-radius:5px;
+  transition:.5s;
+  cursor:pointer;
+}
