@@ -124,6 +124,8 @@ transform: scale(1.1);
 
 .c-detail{
   margin:20px 0px;
+  height:40px;
+  overflow:scroll;
   color:#333333;
 }
 
